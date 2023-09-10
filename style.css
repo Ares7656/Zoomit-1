@@ -191,3 +191,30 @@ img{
 .BORDER{
     border: 0px !important;
 }
+.AA{
+    color: rgb(58, 58, 58);
+}
+.AA:hover{
+    color:red ;
+    transition: all 0.2s;
+}
+.nav .box-hover{
+    width: 470px;
+    height: 285px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 42px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s all ease-in-out;
+    cursor: default;
+    white-space: nowrap;
+  }
+  .nav .NAV:hover + .box-hover,.nav .box-hover:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .WHITE-50{
+    color: rgb(209, 209, 209);
+  }
