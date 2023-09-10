@@ -237,3 +237,6 @@ img{
   .MIN-HEIGHT2{
     min-height: 115px;
   }
+  .h-95{
+    height: 95% !important;
+  }
