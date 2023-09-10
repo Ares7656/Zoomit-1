@@ -218,3 +218,23 @@ img{
   .WHITE-50{
     color: rgb(209, 209, 209);
   }
+  .PLACE-HOLDER{
+    
+    color: aliceblue;
+  }
+  .PLACE-HOLDER::placeholder{
+    
+    color: aliceblue;
+  }
+  .PLACE-HOLDER:focus{
+    
+    background: rgb(44, 44, 44); 
+    
+  }
+  .MIN-HEIGHT1{
+    min-height: 120px;
+  }
+  .MIN-HEIGHT2{
+    min-height: 115px;
+  }
+  
