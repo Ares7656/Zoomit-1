@@ -114,8 +114,8 @@ body{
     height: 100px;
 }
 .T{
-color: rgb(177, 177, 177);
-cursor: pointer;
+    color: rgb(177, 177, 177);
+    cursor: pointer;
 }
 .T:hover{
     color: rgb(73, 73, 73);
@@ -127,7 +127,7 @@ cursor: pointer;
     font-size: small;
 }
 .Z{
-    z-index: 2;
+    z-index: 9;
 }
 .B{
     background: rgb(44, 44, 44); 
@@ -242,4 +242,7 @@ img{
   }
   .W-10{
     width: 5% !important;
+  }
+  .Z-1{
+    z-index: -1;
   }
