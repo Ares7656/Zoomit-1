@@ -127,7 +127,7 @@ body{
     font-size: small;
 }
 .Z{
-    z-index: 9;
+    z-index: 99;
 }
 .B{
     background: rgb(44, 44, 44); 
