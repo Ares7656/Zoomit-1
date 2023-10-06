@@ -267,3 +267,20 @@ img{
 -moz-box-shadow: 13px 10px 5px 0px rgba(245, 6, 6, 0.77);
 box-shadow: 13px 10px 5px 0px rgba(255, 0, 0, 0.77);
 }
+#progress-container {
+    width: 100%;
+    
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    transition: 0.2s;
+    overflow: hidden;
+    height: 4px;
+    padding: 0;
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to right , rgb(250, 0, 42) , rgb(251, 255, 0));
+}
