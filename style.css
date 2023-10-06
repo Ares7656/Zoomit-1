@@ -262,3 +262,8 @@ img{
         margin-left: 10px;
     }
 }
+.SHADOW{
+    -webkit-box-shadow: 13px 10px 5px 0px rgba(240, 8, 8, 0.77);
+-moz-box-shadow: 13px 10px 5px 0px rgba(245, 6, 6, 0.77);
+box-shadow: 13px 10px 5px 0px rgba(255, 0, 0, 0.77);
+}
