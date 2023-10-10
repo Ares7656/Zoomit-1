@@ -101,7 +101,7 @@ body{
     
 }
 .card img{
-    transition: all 0.7s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 .BTN{
@@ -263,9 +263,7 @@ img{
     }
 }
 .SHADOW{
-    -webkit-box-shadow: 13px 10px 5px 0px rgba(240, 8, 8, 0.77);
--moz-box-shadow: 13px 10px 5px 0px rgba(245, 6, 6, 0.77);
-box-shadow: 13px 10px 5px 0px rgba(255, 0, 0, 0.77);
+  box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 #progress-container {
     width: 2000px;
@@ -400,3 +398,9 @@ box-shadow: 13px 10px 5px 0px rgba(255, 0, 0, 0.77);
   .input:checked + .slider:before {
     transform: translateX(30px);
   }
+.STICKY{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+}
