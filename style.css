@@ -225,7 +225,7 @@ img{
     color: rgb(58, 58, 58);
 }
 .AA:hover{
-    color:red ;
+    color:#c99a00 ;
     transition: all 0.2s;
 }
 .nav .box-hover{
