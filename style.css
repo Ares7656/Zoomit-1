@@ -68,22 +68,48 @@ body{
 }
 }
 
-
+.LOGO{
+  transition: all ease-in-out 0.1s; 
+  
+}
+.LOGO:hover{
+  transform: scale(1.2);
+  transition: all ease-in-out 0.1s;
+  
+}
 
 
 .A:hover{
-    color:red ;
+  color: #fdbb2d;
     transition: all 0.2s;
 }
-.btn:hover{
+.border-zard:hover{
     opacity: 90%;
     transition: all 0.2s;
-    
+    color: #fdbb2d;
+    border: 2px solid;
 }
-
+.border-zard{
+  color: whitesmoke;
+  border: 2px solid;
+  transition: all 0.2s;
+}
+.btn{
+  color: whitesmoke;
+  
+}
 .A{
     color: whitesmoke;
+    position: relative;
     
+}
+h6{
+  color: whitesmoke;
+  transition: all ease-in-out 0.2s;
+}
+h6:hover{
+  color: #fdbb2d;
+  transition: all ease-in-out 0.2s;
 }
 .C{
     cursor: pointer;
@@ -121,7 +147,7 @@ body{
     color: rgb(73, 73, 73);
 }
 .G{
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(45, 35, 51);
 }
 .FONT{
     font-size: small;
@@ -135,12 +161,13 @@ body{
 .B{
     background: rgb(44, 44, 44); 
 }
+
 .RED{
     color: whitesmoke;
     
 }
 .RED:hover{
-    color: rgb(255, 55, 55);
+  color: #fdbb2d;
     transition: all 0.3s ease-in-out;  
 }
 img{
@@ -265,8 +292,31 @@ img{
 .SHADOW{
   box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
+.A{
+  position: relative;
+  height: 35px;
+}
+.A::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-color: #9900ff;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  transform: scale( 0 , 1);
+  transition: all ease-in-out 0.2s;
+  
+}
+.A:hover::after{
+  transform: scale( 1 , 1 );
+  transition: all ease-in-out 0.2s;
+  
+}
+/* progres container!!! */
 #progress-container {
-    width: 2000px;
+    width: 2400px;
     position: fixed;
     top: 80px;
     z-index: 9999;
@@ -281,7 +331,7 @@ img{
     
     width: 0;
     height: 100%;
-    background-image: linear-gradient(to right , rgb(0, 200, 214) , rgb(132, 0, 255));
+    background-image: linear-gradient(to right , #fdbb2d , rgb(97, 0, 187));
 }
 .gradient{
     background: #1a2a6c;  /* fallback for old browsers */
@@ -289,7 +339,7 @@ img{
     background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-
+/* progres container END !!! */
 
 .switch {
     font-size: 17px;
